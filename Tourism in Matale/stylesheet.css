@@ -1,0 +1,199 @@
+body{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            font-family:sans-serif green;
+            background-image: url(./images/background.jpg);  
+            
+            
+            
+}
+
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(./images/background.jpg) center/cover fixed;
+    filter: blur(5px); 
+    z-index: -1; 
+    
+}
+
+        
+td.img{
+    width: 400;
+    height: 200px;
+    margin-right: .5rem;
+    border-radius:50%;
+    vertical-align:middle;
+    
+}
+
+h1{
+    color: white;
+    box-sizing: content-box;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 80;
+    background-color: black;
+    font-family: cursive;
+    
+    
+}
+#table1,#td{
+    border: 3 solid black;
+    text-decoration-style: wavy;
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    
+}
+#table1 {
+    
+    background-color: black;
+    font-size: 30;
+    border-color: white;
+}
+
+#table2{
+    font-family: inherit;
+    font-size: 18;
+    color: white;
+    
+}
+#table3{
+    height: 10%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    
+     
+    
+}
+#table3,#td{
+    border: 3 solid black;
+    text-decoration-style: wavy;
+    color: white;
+}
+
+.links{
+    color: white;
+    
+} 
+.links:hover{
+    color:forestgreen;
+} 
+
+
+#table4,#td{
+    border:5px dashed black;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 8px;
+    
+   
+} 
+
+h2{  
+     font-size: 3em;
+    font-weight: bolder;
+    border-bottom: 3px solid black;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: black;
+    color: green;
+    
+}
+span{
+    font-weight: 100;
+    color: white;
+}
+
+.box{
+    width: 450px;
+    height: 1300px;
+    margin: 60px auto 0;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 35px;
+    border:3px solid #fff;
+    border-radius: 70px 0 70px 0;
+}
+.box1{
+    width: 1000px;
+    height: 900px;
+    margin: 30px auto 0;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 10px;
+    border:3px solid #fff;
+    border-radius: 70px 0 70px 0;
+}
+
+#hotel_booking,#th{
+    color: white;
+}
+
+input,select{
+    width: 100%;
+    height:100%;
+    border-radius: 15px 0 15px 0;
+    margin-bottom: 15px;
+    background: transparent;
+    color:green;
+    
+}
+.pic1{
+    width: 500px;
+    height: 400px;
+    margin: 30px auto 0;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 10px;
+    border:3px solid #fff;
+    border-radius: 70px 0 70px 0;
+}
+
+#heritage{
+    border:5px dashed black;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;
+    border-spacing: 10px
+    
+    
+}
+.heritage1{
+    width: 500px;
+    height: 400px;
+    margin: 30px auto 0;
+    background: rgba(0,0,0,0.6);
+    text-align: center;
+    padding: 10px;
+    border:3px solid #fff;
+    border-radius: 70px 0 70px 0;
+    
+}
+
+h6{  
+    color:white;
+    font-size: 18;
+    
+}
+
+p{
+    font-size: 0.9em;
+    font-weight: bolder;
+    border-bottom: 3px solid transparent;
+    box-sizing: content-box;
+    text-align: center;
+    background-color: none;
+    color: white; 
+    text-align: justify;
+    
+}
